@@ -12,7 +12,7 @@ const HOST = '0.0.0.0';
 console.log("starting...");
 
 const app = express();
-app.set('views', "./src/views");
+app.set('views', "./views");
 app.set('view engine', 'pug');
 
 app.get('/', (req, res) => {
