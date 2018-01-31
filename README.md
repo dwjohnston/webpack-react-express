@@ -60,11 +60,11 @@ docker run --name frontend --network mynetwork -p 80:80 my-frontend
 
 By running the containers in a network, they can see each others' ports. On our exposed nginx container, we proxy the the requests to the backend.
 
-[See the nginx config file](./environent/default.conf)
+[See the nginx config file](./environment/default.conf)
 
 **nb. /z proxy**
 
-Haven't worked out how to properly proxy the `/` location to backend properly, so I'm doing a rewrite to `/z`. 
+Haven't worked out how to properly proxy the `/` location to backend properly, so I'm doing a rewrite to `/z`.
 
 
 
