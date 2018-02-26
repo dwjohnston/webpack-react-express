@@ -1,7 +1,0 @@
-#This file is just to tell you what environment variables you need.
-#DON'T ADD YOUR KEYS HERE!
-#Instead rename this file to environment.secret, and add them there.
-#environment.secret is ignored.
-
-AWS_ACCESS_KEY_ID=
-AWS_SECRET_ACCESS_KEY=
